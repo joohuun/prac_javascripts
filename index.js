@@ -27,7 +27,7 @@ $(function() {
 	});
 });
 
-// foreach
+// 5번 foreach
 const Arr = ['a', 'b', 'c', 'd', 'e'];
 // console.log(Arr)
 const newArr = Arr.forEach((currentElement, index, array)=>{
@@ -38,6 +38,17 @@ const newArr = Arr.forEach((currentElement, index, array)=>{
     // console.log(item)
 })
 
+const Pet = ['강아지', '고양이', '독두꺼비']
+
+const newPet = Pet.forEach((item, index, array)=>{
+    // console.log(item)
+    // console.log(array)
+    const arr = array
+    document.getElementById('pet').innerHTML = array
+    console.log(arr)
+})
+
+// 6번
 
 
 
