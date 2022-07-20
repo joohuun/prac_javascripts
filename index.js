@@ -27,5 +27,13 @@ $(function() {
 	});
 });
 
-// 5번
+// foreach
+const Arr = ['a', 'b', 'c', 'd', 'e'];
+// console.log(Arr)
+const newArr = Arr.forEach((currentElement, index, array)=>{
+    console.log(`요소: ${currentElement}`);
+    console.log('요소: '+ currentElement);
+    // console.log(index)
+    console.log(array)
+})
 
