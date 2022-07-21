@@ -57,14 +57,7 @@ const newPet = Pet.forEach((item, index, array) => {
 
 
 // 6번
-const Pets = ['강아지', '고양이', '독두꺼비']
-const newPets = Pet.forEach((item, index, array) => {
-    // console.log(item)
-    // console.log(array)
-    const arr = array
-    document.getElementById('pet').innerHTML = array
-    console.log(arr)
-})
+
 
 
 
