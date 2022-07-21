@@ -49,9 +49,3 @@ const newPet = Pet.forEach((item, index, array)=>{
 })
 
 // 6번
-
-// 테스트
-
-
-
-
