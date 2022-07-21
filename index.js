@@ -18,7 +18,7 @@ function valuetest() {
 }
 
 
-// 4번
+// 4번 form 사용하여 서버에 데이터 보내기
 $(function () {
     $('form').submit(function (event) {
         event.preventDefault();
@@ -56,7 +56,7 @@ const newPet = Pet.forEach((item, index, array) => {
 })
 
 
-// 6번
+// 6번~~~~~~~~
 
 
 
