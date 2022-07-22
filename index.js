@@ -10,7 +10,7 @@ function loadHtml(){
 function valuetest() {
 	// 입력값 취득
     var textString = document.getElementById("dat_in").value;
-    console.log("입력값 = "+textString)
+    // console.log("입력값 = "+textString)
     // 입력값 출력
     document.getElementById("dat_out").value = textString;
 }
@@ -23,11 +23,16 @@ $(function() {
 		// console.log(param);
         const name = param[0].value
         const gender = param[1].value
-        // console.log(name + gender)
+        console.log(name + gender)
 	});
 });
 
 // 5번 foreach
+const arr = ['가', '나', '다']
+arr.forEach(function (item, index, arr2) {
+    console.log(item, index, arr2[index + 1]);
+})
+
 const Arr = ['a', 'b', 'c', 'd', 'e'];
 // console.log(Arr)
 const newArr = Arr.forEach((currentElement, index, array)=>{
@@ -45,7 +50,11 @@ const newPet = Pet.forEach((item, index, array)=>{
     // console.log(array)
     const arr = array
     document.getElementById('pet').innerHTML = array
-    console.log(arr)
+    // console.log(arr)
 })
 
 // 6번
+function changeText(){
+    document.getElementById('6').innerHTML="체인지!";
+    // element.innerHTML='체인지!';
+}
